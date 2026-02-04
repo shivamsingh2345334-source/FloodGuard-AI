@@ -5,7 +5,8 @@ from response_agent import response_agent
 from report_generator import generate_report
 
 # Load model
-model = joblib.load("risk_model.pkl")
+model = joblib.load("models/risk_model.pkl")
+
 
 st.set_page_config(page_title="FloodGuard AI", layout="wide")
 
