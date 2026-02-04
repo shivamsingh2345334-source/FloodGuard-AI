@@ -1,6 +1,3 @@
-if __name__ == "__main__":
-    print(response_agent("High"))
-
 def response_agent(risk_level):
 
     if risk_level == "High":
@@ -23,3 +20,6 @@ def response_agent(risk_level):
             "resources": ["Monitoring Teams"],
             "action": "Continue surveillance"
         }
+        if __name__ == "__main__":
+    print(response_agent("High"))
+
