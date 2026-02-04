@@ -1,3 +1,5 @@
+if __name__ == "__main__":
+    print(response_agent("High"))
 
 def response_agent(risk_level):
 
